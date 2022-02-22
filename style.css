@@ -1,0 +1,36 @@
+.game_grid {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px;
+  color: red;
+  margin: 20px;
+}
+
+p {
+  background-color: aqua;
+  height: 200px;
+  width: 200px;
+  border: 5px solid black;
+  font-size: 160px;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+#turn {
+  margin: 20px;
+  font-size: 100px;
+}
+
+.aqua {
+  color: aqua;
+}
+
+#heading {
+  margin: 20px;
+}
+
+#scoreboard {
+  margin: 20px;
+  font-size: 50px;
+}
